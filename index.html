@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto PFO 2</title>
+</head>
+<body>
+
+<header>
+    <h1>Gestor de Actividades</h1>
+</header>
+
+<main>
+    <section>
+        <h2>¿De qué se trata el gestor de actividades?</h2>
+        <p>Este proyecto es un Gestor de Actividades que está desarrollado en Python y permite:</p>
+        <ul>
+            <li>Registrar usuarios con claves seguras.</li>
+            <li>Iniciar sesión y validar credenciales.</li>
+            <li>Crear, listar y marcar actividades como completadas.</li>
+            <li>Persistencia de datos con SQLite.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Instalación y Ejecución</h2>
+        <p>Para probar el proyecto de forma local:</p>
+        <pre>
+#Colocar la url donde se ejecute tu servidor local, en el cliente
+            
+# Instalar las dependencias
+
+# Ejecutar servidor en una terminal
+python servidor.py
+
+# En otra terminal, ejecutar cliente
+python cliente.py
+        </pre>
+    </section>
+
+    <section>
+        <p>Ejemplos de la aplicación funcionando:</p>
+        <h3>Registro de usuario</h3>
+        <img src="images\image-3.png" alt="Registro de usuario">
+
+        <h3>Inicio de sesión</h3>
+        <img src="images\image-8.png" alt="Login usuario">
+
+        <h3>Listado de actividades</h3>
+        <img src="images\image-13.png" alt="Listado de actividades">
+
+        <h3>Marcar actividad como completada</h3>
+        <img src="images\image-14.png" alt="Actividad completada">
+
+        <h4>Marcar actividad como pendiente</h3>
+        <img src="images\image-16.png" alt="Actividad pendiente">
+    </section>
+
+    <section>
+        <h2>Endpoints de la API</h2>
+        <ul>
+            <li><strong>POST /registro</strong>Registrar usuario: <code>{"usuario": "nombre", "clave": ""}</code></li>
+            <li><strong>POST /login</strong> Login usuario</li>
+            <li><strong>GET /actividades</strong>Listar actividades</li>
+            <li><strong>POST /actividades</strong>Crear actividad</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Adicional</h2>
+        <p>El proyecto se encuentra en <a href="" target="_blank">GitHub</a>.</p>
+        <p>Se recomienda revisar el archivo README.md</p>
+        <p>Se recomienda abrir los endpoints en navegador o usar el cliente de consola para interactuar con la API.</p>
+    </section>
+</main>
+
+</body>
+</html>
