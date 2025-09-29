@@ -1,5 +1,6 @@
 Completar la url donde se ejecute tu servidor de forma local (en el archivo cliente.py).
-Abrir dos terminal, na terminal para el servicor y otra para el cliente.
+
+Abrir dos terminales, una terminal para el servicor y otra para el cliente.
 
 En la terminal para el cliente correr el comando python cliente.py.
 Deberá aparecer en la terminal lo siguiente:
@@ -16,7 +17,7 @@ Mientras que en la consola del servidor, se mostrará que empezó a correr el se
 Para registrar un usuario debemos seleccionar la opción 1.
 Deberá ingresar su nombre de usuario (no debe tener menos de seis caracteres) y la clave (que debe contar con al menos ocho caracteres) para el registro. 
 
-En caso de que el usuario cuente con menos caracteres que los correspondientes se muestra el siguiente mensaje por consola: "El usuario debe tener al menos seis caracteres"
+En caso de que el usuario cuente con menos de los caracteres correspondientes se muestra el siguiente mensaje por consola: "El usuario debe tener al menos seis caracteres"
 
 ![alt text](images/image-2.png)
 
@@ -69,7 +70,7 @@ Nos muestra el listado de actividades
 
 -Marcar actividad como completada/pendiente
 
-Para completar una actividad como completada o pendiente, lo que se debe hacer es seleccionar el ID de la actividad a marcar y luego respondeer por consola s si está completada o n si está pendiente. Si está completada, aparecerá el mensaje "Actividad completada". Por el contrario, si la actividad sigue pendiente el mensaje por consola será "Actividad marcada como pendiente".
+Para completar una actividad como completada o pendiente, lo que se debe hacer es seleccionar el ID de la actividad a marcar y luego responder por consola "s" si está completada o "n" si está pendiente. Si está completada, aparecerá el mensaje "Actividad completada". Por el contrario, si la actividad sigue pendiente el mensaje por consola será "Actividad marcada como pendiente".
 
 ![alt text](images/image-14.png)
 
