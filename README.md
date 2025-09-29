@@ -87,3 +87,11 @@ Para que el usuario termine la interacción debe seleccionar la opción 6 y por 
 ![alt text](images/image-11.png)
 
 Para terminar las ejercuciones de las terminales se recomienda utilizar el comando Ctrl + C.
+
+Se suman una imagen de como se guardan en la base de datos las claves:
+
+![alt text](images/image-21.png)
+
+y las actividades:
+
+![alt text](images/image-20.png)
