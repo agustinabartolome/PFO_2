@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "*********"
+API_URL = "*********" #SECCIÓN QUE SE DEBE MODIFICAR PARA INTERACTUAR
 
 def registrar_usuario():
     usuario = input("Ingrese su nombre de usuario: ")
@@ -22,7 +22,7 @@ def login():
 def listar_actividades():
     response = requests.get(f"{API_URL}/actividades")
     print("\n LISTA DE ACTIVIDADES:")
-    print(response.text)  # HTML simple del servidor
+    print(response.text) 
 
 def crear_actividad(usuario):
     descripcion = input("Descripción de la actividad (mínimo 15 caracteres): ")
